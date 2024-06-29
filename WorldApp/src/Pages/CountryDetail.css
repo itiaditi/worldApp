@@ -1,0 +1,8 @@
+.country-detail-wrapper {
+    display: flex;
+}
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 20px; /* Adjust gap between items */
+}
